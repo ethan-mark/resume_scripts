@@ -137,7 +137,7 @@ class GentleMonster():
             self.cup_piece_charm = False
 
 def failure_email():
-    """If the code fails in any way while running, it will send a notification through email"""
+    """If the code fails in any way while running, it will send a notification through email """
     provider = "smtp.gmail.com"
     smtp0bj = smtplib.SMTP_SSL('smtp.gmail.com', 465)
     smtp0bj.login('test@gmail.com', 'test')
